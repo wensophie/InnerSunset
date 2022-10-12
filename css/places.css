@@ -1,0 +1,134 @@
+html {
+    background-image:url(../images/rm21-paper-jira-8919.jpg);
+    }
+
+body {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 2px;
+    box-shadow: 0 0 12px 4px rgba(0,0,0,.1);
+    font-family: 'Montserrat', sans-serif;
+    text-align:left;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+    }
+
+ul {
+    list-style:none;
+    padding-left: 50px;
+    padding-top: 15px;
+    }
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+a {
+    color: darkturquoise;
+    font-size: 13.5px;
+    font-weight: 500;
+    text-decoration:none;
+    }
+
+a:hover {
+    color:#000;
+    }
+
+img {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+    max-width: 100%; 
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    }
+
+h2 {
+    font-size: 27px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+    padding:0 50px 0 50px;
+    }
+
+h3 {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 70px;
+    }
+
+#mainContent {
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.left {
+  width:35%;
+  float:left;
+  padding-top:5%; 
+  padding-left: 5%;
+  padding-right: 3%
+}
+
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0  4px;
+  margin-bottom: 60px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.container img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-out;
+}
